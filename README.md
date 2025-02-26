@@ -1,8 +1,8 @@
 # Python Specialization: Data Analytics
 
-<!-- <p align="center">
-  <a href=""><img src="" alt="Data Analytics"></a>
-</p> -->
+<p align="center">
+  <a href="./resources/DataAnalytics.png"><img src="./resources/DataAnalytics.png" alt="DataAnalytics"></a>
+</p>
 <p align="center">
     <em>Learn Python for Data Analytics. Learn how to analyze and visualize different data types and do projects with them.</em>
 </p>
@@ -54,8 +54,14 @@
 - Installing NumPy
 - Understanding Data Types in Python
 - NumPy Speed
-
-
-## Sources
+- Example: Data analysis in pure Python vs NumPy/Pandas
+- NumPy basics - Introduction to Ndarrays
+- Basic Operations and Universal Functions
+- Indexing, Slicing and Iterating
+- Boolean Indexing
+- Shape manipulation
+- Copies and views
+- Examples of real life usage
+- NumPy Exercises
 
 ## Changes
