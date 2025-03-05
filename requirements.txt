@@ -1,6 +1,6 @@
 ruff
 notebook
 
-numpy==2.2.3
-pandas==2.2.3
+numpy
+pandas[excel,performance,html]==2.2.3
 matplotlib==3.10.0

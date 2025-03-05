@@ -64,4 +64,13 @@
 - Examples of real life usage
 - NumPy Exercises
 
+### [Part 3: Introduction to Pandas](./Part_03_Introduction_to_Pandas/README.md)
+- What is Pandas?
+- Installing Pandas
+- Data structures
+- Essential basic functionality
+- Indexing and selecting data
+
 ## Changes
+
+<!-- - https://medium.com/@vakgul/data-analysis-nyc-subway-ridership-density-eac09ad491dc -->
