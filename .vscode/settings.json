@@ -23,8 +23,10 @@
     "python.testing.pytestEnabled": true,
     "cSpell.words": [
         "Colab",
+        "mpls",
         "Ndarrays",
-        "Pylance"
+        "Pylance",
+        "skiprows"
     ],
     // Notebook-specific settings:
     "notebook.formatOnSave.enabled": true,
@@ -34,5 +36,8 @@
     },
     "[python]": {
         "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
     }
 }

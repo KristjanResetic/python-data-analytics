@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<employees>
+    <employee>
+        <id>1</id>
+        <name>Alice</name>
+        <department>HR</department>
+    </employee>
+    <employee>
+        <id>2</id>
+        <name>Bob</name>
+        <department>Engineering</department>
+    </employee>
+</employees>

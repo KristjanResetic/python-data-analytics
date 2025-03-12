@@ -71,6 +71,15 @@
 - Essential basic functionality
 - Indexing and selecting data
 
+### [Part 4: Acquiring Your Data](./Part_04_Acquiring_Your_Data/README.md)
+- Introduction to Data Acquisition
+- Working with Flat Files
+- Working with Binary Files
+- Collecting Data from APIs
+- Web Scraping Basics
+- Working with Databases
+- End-to-End Data Acquisition Pipeline
+
 ## Changes
 
 <!-- - https://medium.com/@vakgul/data-analysis-nyc-subway-ridership-density-eac09ad491dc -->
