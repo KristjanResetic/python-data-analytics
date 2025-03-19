@@ -65,6 +65,34 @@ def convert_raw_logs_to_csv(input_path: Path, output_path: Path) -> None:
                 csv_writer.writerow([timestamp, src_ip, http_method, http_path, http_protocol_version, http_status_code, http_response_size, referrer, user_agent])
 
 
+def extract_unique_ips(input_path: Path) -> list[str]:
+    """Extract unique IPs from logs."""
+    return []
+
+
+def generate_ip_info_dataset(unique_ips: list[str], output_path: Path) -> None:
+    """Generate IP info dataset and save it to CSV."""
+    header = [
+        "ip",
+        "rir",
+        "is_mobile",
+        "is_crawler",
+        "is_datacenter",
+        "is_tor",
+        "is_proxy",
+        "is_vpn",
+        "is_abuser",
+        "datacenter_name",
+        "company_name",
+        "company_abuser_score",
+        "company_type",
+        "country",
+        "city",
+        "latitude",
+        "longitude",
+    ]
+
+
 if __name__ == "__main__":
     logger.info("--------- Running Web Data Acquisition Pipeline ---------")
     raw_logs_paths = get_all_logs_paths(MAIN_DATA_DIR, "access.log.*")
@@ -73,3 +101,10 @@ if __name__ == "__main__":
     merge_logs_and_remove_empty_lines(raw_logs_paths, MERGED_RAW_LOGS_PATH)
     logger.info(f"--> Converting raw logs into CSV: {MERGED_CSV_LOGS_PATH}.")
     convert_raw_logs_to_csv(MERGED_RAW_LOGS_PATH, MERGED_CSV_LOGS_PATH)
+    logger.info("--> Extracting unique IPs from logs.")
+    unique_ips = extract_unique_ips(MERGED_CSV_LOGS_PATH)
+
+    logger.info("--------- Web Data Acquisition Pipeline Finished ---------")
+
+
+# https://ipapi.is/
