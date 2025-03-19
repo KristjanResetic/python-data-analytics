@@ -5,3 +5,4 @@ numpy
 pandas[excel,performance,html]==2.2.3
 matplotlib==3.10.0
 pyarrow
+loguru == 0.7.3
