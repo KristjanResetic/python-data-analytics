@@ -26,7 +26,6 @@
 - Acquiring Your Data
 - Data Wrangling With Pandas
 - Exploratory Data Analysis
-- Data Analysis Workflow
 - Working With Timeseries Data
 - Interacting with SQL databases
 - Working with Big Data
@@ -92,6 +91,18 @@
 - Handling Outliers
 - Ensuring Data Quality and Integrity
 - End-to-End Data Wrangling Pipeline
+
+### [Part 6: Exploratory Data Analysis](./Part_06_Exploratory_Data_Analysis/README.md)
+- Overview of EDA
+- Descriptive Statistics and Data Summarization
+- Copy-on-Write (CoW)
+- Data Aggregation
+- Visualizing Data Insights
+- Reshaping Data: Melting and Pivoting
+- End-to-End EDA Workflow
+
+### [Part 7: Working With Timeseries Data](./Part_07_Working_With_Timeseries_Data/README.md)
+- Overview
 
 ## Changes
 
