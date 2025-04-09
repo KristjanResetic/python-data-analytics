@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# urediti merged_logs csv in ip_info.csv
-=======
 """Web data Wrangling pipeline."""
 
 from __future__ import annotations
@@ -104,4 +101,3 @@ if __name__ == "__main__":
     web_logs_merged.to_parquet(MAIN_DATA_DIR / "web_logs_merged.parquet", index=False)
     print(web_logs_merged.info())
     print("Web logs merged and saved to Parquet.")
->>>>>>> d02c20cc24c3966a820f0e06c0605ee8e321fc56
