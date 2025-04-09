@@ -10,3 +10,4 @@ python-dotenv==1.0.1
 fuzzywuzzy[speedup]==0.18.0
 missingno==0.5.2
 pandera==0.23.1
+user-agents==2.2.0
