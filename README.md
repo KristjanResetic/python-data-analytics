@@ -101,8 +101,27 @@
 - Reshaping Data: Melting and Pivoting
 - End-to-End EDA Workflow
 
-### [Part 7: Working With Timeseries Data](./Part_07_Working_With_Timeseries_Data/README.md)
-- Overview
+### [Part 7: Databases and SQL](./Part_07_Databases_and_SQL/README.md)
+- Introduction to Databases
+- SQLite
+- Introduction to SQL
+- Work with the SQLite database using raw Python
+- SQLAlchemy
+- Working with databases and Pandas
+- Example: Data import from CSV to SQLite database
+
+### [Part 8: Working With Timeseries Data](./Part_08_Working_With_Timeseries_Data/README.md)
+- Introduction to Timeseries Data
+- Working with Dates and Times in Python
+- Dates and times in Pandas
+- Analyzing electricity consumption setup
+- Time-based indexing
+- Visualizing time series data
+- Seasonality
+- Frequencies
+- Resampling
+- Rolling windows
+- Trends
 
 ## Changes
-
+- Version `1.0.0`: 5.5.2025 - The first version of the course.

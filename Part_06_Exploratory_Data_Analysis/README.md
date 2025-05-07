@@ -1,7 +1,6 @@
 # Exploratory Data Analysis
 
 **Sources:**
-- [SettingwithCopyWarning: How to Fix This Warning in Pandas](https://www.dataquest.io/blog/settingwithcopywarning/)
 - [Copy-on-Write (CoW)](https://pandas.pydata.org/docs/user_guide/copy_on_write.html)
 
 
